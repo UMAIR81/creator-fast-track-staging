@@ -1,8 +1,8 @@
 import React from "react";
-import CreditsLineChart from "../components/CreditsLineChart";
-import StripeTopUpForm from "../components/StripeTopUpForm";
-import Topupcredits from "../components/Topupcredits";
-import Transactionhistory from "../components/Transactionhistory";
+import CreditsLineChart from "../Components/CreditsLineChart";
+import StripeTopUpForm from "../Components/StripeTopUpForm";
+import Topupcredits from "../Components/Topupcredits";
+import Transactionhistory from "../Components/Transactionhistory";
 
 const ReferralDashboard = () => {
   return (
