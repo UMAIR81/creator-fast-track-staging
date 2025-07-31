@@ -56,7 +56,7 @@ const HomePage = () => {
           </div>
 
           {/* Content */}
-          <div className="ml-36 w-5/6  bg-[var(--neutral-light)] p-4 overflow-y-auto">
+          <div className="ml-30 w-5/6  bg-[var(--neutral-light)] p-4 overflow-y-auto">
             <div className="max-w-[100%] overflow-x-hidden">
                  {renderPage[currentTab][1]}
             </div>
