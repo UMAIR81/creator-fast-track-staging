@@ -7,25 +7,11 @@ import LoginPage from "./pages/LoginPage";
 
 
 function App() {
-      
-  const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
+   
   return (
     <>
-         <Routes>
-            <Route
-                path="/"
-                element={isLoggedIn ? <HomePage /> : <Navigate to="/login" state={{ from: location }} replace/>}
-            />   
-          
-             <Route
-                  path="/login"
-                  element={!isLoggedIn ? <LoginPage /> : <Navigate to="/" replace />}
-             />
+         <Routes>  
             <Route path="/RaffleShow" element={<RaffleShow />} />
-            <Route path="/referral" element={<ReferralDashboard />} />
-
-            
-            {/* <Route path="/RaffleShow" element={<RaffleShow />} />
             <Route path="/" element={<HomePage />} />
             <Route path="/referral" element={<ReferralDashboard />} />
             <Route path="/leaderboard" element={<LoginPage />} />
